@@ -1,0 +1,15 @@
+*
+!API.py
+!chromedriver.exe
+!main.py
+!README.md
+!requirements.txt
+!scraper.py
+!utils.py
+!.gitignore
+!database.db
+!chromedriver
+!db情報/
+!db情報/恋愛ver
+!db情報/恋愛ver/*
+!schemas.py
