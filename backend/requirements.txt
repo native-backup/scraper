@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+bs4
+selenium
+sqlalchemy
+asyncio
+pyppeteer

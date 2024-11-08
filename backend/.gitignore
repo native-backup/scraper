@@ -1,0 +1,7 @@
+*
+!.gitignore
+!Dockerfile
+!main.py
+!requirements.txt
+!scraper.py
+!scraper_async.py
