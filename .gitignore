@@ -1,9 +1,0 @@
-*
-!docker-compose.yml
-!Readme.md
-!.gitignore
-!up.sh
-!down.sh
-!backend/
-!.devcontainer
-!.devcontainer/*
