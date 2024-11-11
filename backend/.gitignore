@@ -5,3 +5,4 @@
 !requirements.txt
 !scraper.py
 !scraper_async.py
+!database.db
