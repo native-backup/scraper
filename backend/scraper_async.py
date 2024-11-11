@@ -39,7 +39,7 @@ class Scraper:
 
         self.driver_path = driver_path
         self.dates = self.generate_dates(start_year, end_year, end_month, end_day)
-        self.engine = create_engine(f"sqlite:///backend/database.db", echo=False)
+        self.engine = create_engine(f"sqlite:///database.db", echo=False)
         Base.metadata.create_all(self.engine)
         self.Session = sessionmaker(bind=self.engine)
 
@@ -144,7 +144,7 @@ class Scraper:
     import aiosqlite
 
     async def scrape(self) -> None:
-        async with aiosqlite.connect("backend/database.db") as db:  # データベース接続
+        async with aiosqlite.connect("database.db") as db:  # データベース接続
             async with db.execute(
                 "SELECT 1"
             ) as cursor:  # テストクエリ（必要に応じて変更）
